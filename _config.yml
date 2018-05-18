@@ -94,7 +94,7 @@ gitalk:
 ## => Analytics
 ##############################
 ## Google Analytics
-ga_tracking_id: # Google Analytics id for the site
+ga_tracking_id: UA-119489674-1 # Google Analytics id for the site
 
 
 ## => Build
