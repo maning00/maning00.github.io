@@ -1,0 +1,142 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+#
+# ,--------.      ,--.   ,--. ,--.
+# '--.  .--',---.  \  `.'  /,-'  '-.
+#    |  |  | .-. :  .'    \ '-.  .-'
+#    |  |  \   --. /  .'.  \  |  |
+#    `--'   `----''--'   '--' `--'
+
+
+
+
+## => Site Settings
+##############################
+text_color_theme: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+baseurl: / # does not include hostname
+title: 华莱士的博客
+description: > # this means to ignore newlines until "Language & timezone"
+  华莱士的博客
+
+
+## => Language and Timezone
+##############################
+lang:zh # the language of your site, "en" (default, English), "zh"(简体中文), "zh-Hans"(简体中文), "zh-Hant"(繁體中文)
+timezone:Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+
+
+## => Author and Social
+##############################
+author:
+  name: '马宁'
+  email: maning00@hotmail.com # your Email address e.g. someone@site.com
+  facebook: maning # your Facebook username
+  twitter: Ning__Ma # your Twitter username
+  github: maning00 # your GitHub username
+  #linkedin: # your Linkedin username
+  #googleplus: # your Google+ username
+  weibo: Tingtintins # your Weibo username
+  
+
+
+## => GitHub Repository (if the site is hosted by GitHub)
+##############################
+repository: maning00/maning00.github.io
+repository_tree: master
+
+
+## => Navigation
+##############################
+paths:
+  base: /
+  home: /
+  all:  /all.html
+  rss:  /feed.xml
+
+nav_lists:
+  - titles:
+      en: About
+      zh: 关于
+      zh-Hans: 关于
+      zh-Hant: 關於
+    url: /about.html
+
+
+## => Post
+##############################
+## excerpt
+excerpt_separator: <!--more-->
+excerpt_type: html # text (default), html
+
+
+## Markdown Enhancements
+
+# Mathjax
+mathjax: # false (default), true
+mathjax_autoNumber: # false (default), true
+
+# Mermaid
+mermaid: # false (default), true
+
+# Chart
+chart: # false (default), true
+
+
+## => Paginate
+##############################
+paginate: 8
+paginate_path: /blog/page:num # don't change this unless for special need
+
+
+
+## => Comments
+##############################
+## Disqus
+disqus:
+  shortname: # the Disqus shortname for the site
+
+
+
+
+## => Analytics
+##############################
+## Google Analytics
+ga_tracking_id: # Google Analytics id for the site
+
+
+## => Build
+##############################
+markdown: kramdown
+highlighter: rouge
+permalink: date
+
+exclude:
+  - CHANGELOG.md
+  - CHECKLIST.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README-*.md
+  - README.md
+  - gulpfile.js
+  - jekyll-text-theme.gemspec
+  - package-lock.json
+  - package.json
+  - /docs
+  - /node_modules
+  - /screenshots
+  - /test
+  - /vendor
+
+
+## => Plugins
+##############################
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
