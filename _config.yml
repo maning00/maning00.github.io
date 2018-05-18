@@ -76,7 +76,7 @@ excerpt_type: html # text (default), html
 ## Markdown Enhancements
 
 # Mathjax
-mathjax: # false (default), true
+mathjax: true # false (default), true
 mathjax_autoNumber: # false (default), true
 
 # Mermaid
@@ -95,10 +95,15 @@ paginate_path: /blog/page:num # don't change this unless for special need
 
 ## => Comments
 ##############################
-## Disqus
-disqus:
-  shortname: # the Disqus shortname for the site
-
+## Gitalk
+# please refer to https://github.com/gitalk/gitalk for more info.
+gitalk:
+  clientID: a814ab732dc9d6768f81 # GitHub Application Client ID
+  clientSecret: 4a7befeb57f2301288330f6281fd1e467db9f6e8 # GitHub Application Client Secret
+  repository: maning00.github.io # GitHub repo
+  owner: maning00 # GitHub repo owner
+  admin: maning00 # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    # - your GitHub Id
 
 
 
