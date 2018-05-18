@@ -1,26 +1,10 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-#
-# ,--------.      ,--.   ,--. ,--.
-# '--.  .--',---.  \  `.'  /,-'  '-.
-#    |  |  | .-. :  .'    \ '-.  .-'
-#    |  |  \   --. /  .'.  \  |  |
-#    `--'   `----''--'   '--' `--'
-
-
-
-
 ## => Site Settings
 ##############################
 text_color_theme: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 baseurl: / # does not include hostname
-title: 华莱士的博客
+title: 马宁的博客
 description: > # this means to ignore newlines until "Language & timezone"
-  华莱士的博客
+  马宁的博客
 
 
 ## => Language and Timezone
@@ -34,7 +18,7 @@ timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_
 author:
   name: '马宁'
   email: maning00@hotmail.com # your Email address e.g. someone@site.com
-  facebook: maning # your Facebook username
+  facebook: 马宁 # your Facebook username
   twitter: Ning__Ma # your Twitter username
   github: maning00 # your GitHub username
   #linkedin: # your Linkedin username
