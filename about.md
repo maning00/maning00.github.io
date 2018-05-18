@@ -8,15 +8,6 @@ titles:
 key: page-about
 ---
 
-Welcome to my blog! :earth_asia: :earth_africa: :earth_americas:
+Hi！欢迎来到我的博客，我是北京科技大学的一名大二学生，我对科技充满热爱，现在一直努力提高我的coding技能。
 
-{% highlight javascript %}
-(() => console.log('hello, world!'))();
-{% endhighlight %}
-
-## Skills
-
-- HTML5, CSS3(SASS), JavaScript(ES2017, Node.js), Bash(Zsh)
-- React, React Native, Vue.js
-- gulp, webpack
-- Adobe Photoshop, Sketch
+这里会记录一些我课余做的项目及我的所思所想
